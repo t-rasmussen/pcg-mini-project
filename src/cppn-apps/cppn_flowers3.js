@@ -189,7 +189,7 @@ const sketch = (p5) => {
             scene3d.setCanvasDataOf3(data);
         }
         else{
-            alert("Flower cross must be created before mutating it");
+            alert("Flower 3 must be created from flower 1 and 2 before mutating it");
         }
     }
 
