@@ -1,0 +1,36 @@
+#allContainer{
+    margin: auto;
+    width:fit-content;
+}
+
+h2{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-top: 10px;
+}
+
+.buttonContainer{
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content
+}
+
+.buttonContainer button{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color:white; 
+    background: black;
+    padding: 5px;
+    border: none;
+}
+
+.buttonContainer button:hover{
+    background: gray;
+}
+
+
+.buttonContainer button:active{
+    background: lighgray;
+}
+

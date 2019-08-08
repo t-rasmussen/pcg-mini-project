@@ -1,0 +1,114 @@
+#allContainer{
+    margin: auto;
+    width:fit-content;
+}
+
+h2{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-top: 10px;
+}
+
+#canvasContainer{
+    width: 50%;
+}
+
+.buttonContainer{
+    margin: 15px;
+    width: 100%;
+}
+
+.radioContainer{
+    margin: 15px;
+}
+
+.buttonContainer button{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color:white; 
+    background: black;
+    padding: 5px;
+    border: none;
+}
+
+.buttonContainer button:hover{
+    background: gray;
+}
+
+
+.buttonContainer button:active{
+    background: lighgray;
+}
+
+#controlsContainer{
+    color:white; 
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+
+p{
+    margin: 0px;
+}
+
+h3{
+    margin: 15px !important;
+}
+
+#controls1{
+    padding:5px;
+    background: gray;
+    margin: 0px;
+}
+
+#controls2{
+    padding: 5px;
+    background: lightgray;
+    margin: 0px;
+}
+
+#controls3{
+    padding: 5px;
+    background: gray;
+    margin: 0px;
+}
+
+.colorContainer{
+    margin: 15px;
+}
+
+.sliderContainer{
+    margin: 15px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: white;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }

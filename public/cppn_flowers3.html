@@ -1,0 +1,79 @@
+<html>
+    <head><title>CPPN flowers 3</title></head>
+    <link rel="stylesheet" href="cppn_flowers3.css">
+    <body>
+        <div id="allContainer">
+            <h2>t-shirt-flowa-powa-generator</h2>
+            <div id="canvasContainer"></div>
+        
+            <div id="controlsContainer">
+                <div id="controls1">
+                    <h3>T-shirt 1</h3>
+                   
+                    <div class="colorContainer">
+                        <p id="colorValue1">T-shirt color</p>
+                        <input id="colorPallet1" class="jscolor" value="cfb997">
+                    </div>
+
+                    <div class="sliderContainer">            
+                        <p id="pedalValue1">Flower pedals frequency 3</p>
+                        <input type="range" min="1" max="6" value="3" class="slider" id="pedalSlider1">
+                    </div>
+
+                    <div class="radioContainer">
+                        <label class="radio-inline">
+                            <input type="radio" id="radioLogo1" name="pattern1" value="logo" checked>Logo</input>
+                        </label>
+                        <label>
+                            <input type="radio" id="radioPattern1" name="pattern1" value="pattern">Pattern</input>
+                        </label>
+                    </div>
+
+                    <div class="buttonContainer">
+                        <button id="newBtn1">New flower</button>
+                        <button id="mutateBtn1">Mutate flower</button>
+                    </div>
+                </div>
+
+                <div id="controls2">
+                        <h3>T-shirt 2</h3>
+
+                        <div class="colorContainer">
+                            <p id="colorValue2">T-shirt color</p>
+                            <input id="colorPallet2" class="jscolor" value="cfb997">
+                        </div>
+
+                        <div class="sliderContainer">            
+                            <p id="pedalValue2">Flower pedals frequency 3</p>
+                            <input type="range" min="1" max="6" value="3" class="slider" id="pedalSlider2">
+                        </div>
+
+                        <div class="radioContainer">
+                            <label class="radio-inline">
+                                <input type="radio" id="radioLogo2" name="pattern2" value="logo" checked>Logo</input>
+                            </label>
+                            <label>
+                                <input type="radio" id="radioPattern2" name="pattern2" value="pattern">Pattern</input>
+                            </label>
+                         </div>
+
+                        <div class="buttonContainer">
+                                <button id="newBtn2">New flower</button>
+                                <button id="mutateBtn2">Mutate flower</button>
+                        </div>
+                </div>
+
+                <div id="controls3">
+                    <h3>T-shirt 3</h3>
+                    <div class="buttonContainer">
+                        <button id="crossBtn">Cross t-shirt 1 and 2</button>
+                        <button id="mutateBtn3">Mutate flower</button>
+                        <button id="buyBtn">Buy mutated freak</button>
+                    </div>
+                <div>
+            </div>
+        </div>
+        <script src="jscolor.js"></script>
+        <script src="cppn_flowers3.js"></script>
+    </body>
+</html>
