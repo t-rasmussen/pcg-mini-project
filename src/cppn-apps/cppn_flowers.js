@@ -97,7 +97,7 @@ const sketch = (p5) => {
 
 
         let output2 = model.predict(input2);
-        output2.print();
+       // output2.print();
 
         interiorVals = output2.dataSync();
 
