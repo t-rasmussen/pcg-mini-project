@@ -42,3 +42,18 @@ h4{
     background: lighgray;
 }
 
+#parameterContainer{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-top: 15px;
+}
+
+#paramsHeader{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-top: 5px;
+}
+

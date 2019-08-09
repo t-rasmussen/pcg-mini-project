@@ -12,6 +12,7 @@ const sketch = (p5) => {
     const numHidden = 6;
     const outputNodes   = 4;
     const latentDim = 3;
+    const P = 1;
     
     //                0   r    
     const inputSize = 1 + 1 + latentDim
@@ -149,7 +150,7 @@ const sketch = (p5) => {
         let c = 0;
         for(let i = 0; i < degrees; i+= stepSize){
             //polar coordinates as input
-            let input0 = Math.sin(i * (Math.PI / 180.0))
+            let input0 = Math.sin(P * i * (Math.PI / 180.0))
             let inputr = 0;
             pixelArr[c] = input0;
             c++;
