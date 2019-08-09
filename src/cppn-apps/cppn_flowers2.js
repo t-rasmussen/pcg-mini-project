@@ -52,6 +52,12 @@ const sketch = (p5) => {
         p5.clear();
         p5.background(0);
 
+        p5.fill(255);
+        p5.textSize('32')
+        p5.text('Flower 1', 20, 20);
+        p5.text('Flower 2', 20 + 1*imageHeight, 20);
+        p5.text('Flower 3', 20 + 2*imageHeight, 20);
+
         flower1.draw();
         flower2.draw();
 
